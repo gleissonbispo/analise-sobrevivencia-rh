@@ -1,0 +1,12 @@
+# O notebook foi escrito no início de 2021, em Python 3.8.
+# As faixas abaixo preservam APIs que ele usa e que mudaram depois
+# (sns.distplot, df.corr() com colunas de texto).
+pandas>=1.1,<2.0
+numpy>=1.19,<2.0
+scipy>=1.5
+matplotlib>=3.3
+seaborn>=0.11,<0.14
+scikit-learn>=0.24
+imbalanced-learn>=0.7
+lifelines>=0.25
+notebook
